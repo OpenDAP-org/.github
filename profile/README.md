@@ -23,10 +23,10 @@ The editions differ only in manufacturing precision.
 | | [faceplate-classic](https://github.com/opendap-project/faceplate-classic) | Inspired by the iPod classic |
 | Standard | [hat-standard](https://github.com/opendap-project/hat-standard) | HAT Case Standard for accessory developers |
 | Process | [rfcs](https://github.com/opendap-project/rfcs) | Proposals for cross-repository and interface changes |
-| Software | [system](https://github.com/opendap-project/system) | DAP OS system software and SDK (Rust) |
+| Software | [system](https://github.com/opendap-project/system) | OpenDAP OS system software and SDK (Rust) |
 | | [ui-components](https://github.com/opendap-project/ui-components) | Official UI components and design system |
-| | [dap-os](https://github.com/opendap-project/dap-os) | The DAP OS distribution: image build and releases |
-| | [toolkit](https://github.com/opendap-project/toolkit) | Developer host tools (not shipped in DAP OS) |
+| | [opendap-os](https://github.com/opendap-project/opendap-os) | The OpenDAP OS distribution: image build and releases |
+| | [toolkit](https://github.com/opendap-project/toolkit) | Developer host tools (not shipped in OpenDAP OS) |
 | Libraries | [kicad-lib](https://github.com/opendap-project/kicad-lib) | KiCad symbols, footprints, 3D models and fab design rules |
 | | [freecad-lib](https://github.com/opendap-project/freecad-lib) | FreeCAD mechanical parts |
 | | [blender-lib](https://github.com/opendap-project/blender-lib) | Blender materials, models and scenes |
@@ -39,7 +39,7 @@ The editions differ only in manufacturing precision.
 | | [hat-vna](https://github.com/opendap-project/hat-vna) | Vector network analyzer based on NanoVNA |
 | | [hat-radio](https://github.com/opendap-project/hat-radio) | SDR based on HackRF Pro |
 
-Faceplates are interchangeable front modules; HATs are accessories mounted on the back. Each HAT is a complete project: hardware, case, firmware, software, DAP OS package, its own tooling and, where useful, on-board AI.
+Faceplates are interchangeable front modules; HATs are accessories mounted on the back. Each HAT is a complete project: hardware, case, firmware, software, OpenDAP OS package, its own tooling and, where useful, on-board AI.
 
 ## Licensing
 
