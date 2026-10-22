@@ -1,15 +1,23 @@
 # OpenDAP
 
-OpenDAP is a fully open-source, open-hardware digital audio player that runs 100% on Linux. It is also a general-purpose Linux gadget: accessory **HATs** mount on its back and turn it into other tools.
+OpenDAP builds personal audio instruments on an open hardware and software platform. The first instrument is a digital audio player that runs entirely on Linux; it is also a general-purpose Linux device that accessory **HATs**, mounted on its back, turn into other tools.
 
-## Product
+Every part is open: schematics, PCBs, mechanics, operating system, SDK and tooling. You can study it, repair it, modify it and build on it.
 
-**OpenDAP T1** is the first device. It comes in two editions built from exactly the same design:
+## Status
 
-- **Commercial**: assembled.
-- **DIY**: a kit to build yourself.
+OpenDAP is in **early open development**. Requirements, architecture decisions, the bill of materials and a virtual T1 for software work are public; hardware prototypes are not built yet. Everything here is work in progress and changes as the design is validated.
 
-The editions differ only in manufacturing precision.
+## Platform
+
+| Part | What it is |
+|---|---|
+| **OpenDAP T1** | The first instrument: a digital audio player with interchangeable front **faceplates** |
+| **OpenDAP OS** | The operating system and software experience of the T1, built on Debian |
+| **OpenDAP HATs** | Accessories mounted on the back that extend what the device can do, on an open standard |
+| **OpenDAP Developer Toolkit** | The `opendap` CLI, SDK and the tools to build, verify and manufacture on the platform |
+
+The T1 will come in two editions built from the same design: a **DIY edition** you assemble yourself and a **Commercial edition**, assembled and tested. They differ in manufacturing, assembly and testing, not in the platform.
 
 ## Repositories
 
@@ -24,9 +32,13 @@ The editions differ only in manufacturing precision.
 | Standard | [hat-standard](https://github.com/opendap-project/hat-standard) | HAT Case Standard for accessory developers |
 | Process | [rfcs](https://github.com/opendap-project/rfcs) | Proposals for cross-repository and interface changes |
 | Software | [system](https://github.com/opendap-project/system) | OpenDAP OS system software and SDK (Rust) |
-| | [ui-components](https://github.com/opendap-project/ui-components) | Official UI components and design system |
+| | [ui-components](https://github.com/opendap-project/ui-components) | Official UI components and design system of OpenDAP OS |
 | | [opendap-os](https://github.com/opendap-project/opendap-os) | The OpenDAP OS distribution: image build and releases |
-| | [toolkit](https://github.com/opendap-project/toolkit) | Developer host tools (not shipped in OpenDAP OS) |
+| Developer Toolkit | [toolkit-cli](https://github.com/opendap-project/toolkit-cli) | The `opendap` command-line tool |
+| | [toolkit-host](https://github.com/opendap-project/toolkit-host) | Developer host setup |
+| | [toolkit-hardware](https://github.com/opendap-project/toolkit-hardware) | Fab packages, CAD exports, part data and the component export contract |
+| | [toolkit-verify](https://github.com/opendap-project/toolkit-verify) | Verification from simulations and captured samples |
+| | [toolkit-hooks](https://github.com/opendap-project/toolkit-hooks) | Shared pre-commit hooks |
 | Libraries | [kicad-lib](https://github.com/opendap-project/kicad-lib) | KiCad symbols, footprints, 3D models and fab design rules |
 | | [freecad-lib](https://github.com/opendap-project/freecad-lib) | FreeCAD mechanical parts |
 | | [blender-lib](https://github.com/opendap-project/blender-lib) | Blender materials, models and scenes |
