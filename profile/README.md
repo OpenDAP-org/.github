@@ -1,6 +1,6 @@
 # OpenDAP
 
-OpenDAP builds personal audio instruments on an open hardware and software platform. The first instrument is a digital audio player that runs entirely on Linux; it is also a general-purpose Linux device that accessory **HATs**, mounted on its back, turn into other tools.
+OpenDAP is an open-source, open-hardware digital audio player (DAP) that runs entirely on Linux. It is also a general-purpose Linux device: accessory **HATs**, mounted on its back, turn it into other tools.
 
 Every part is open: schematics, PCBs, mechanics, operating system, SDK and tooling. You can study it, repair it, modify it and build on it.
 
@@ -12,7 +12,7 @@ OpenDAP is in **early open development**. Requirements, architecture decisions, 
 
 | Part | What it is |
 |---|---|
-| **OpenDAP T1** | The first instrument: a digital audio player with interchangeable front **faceplates** |
+| **OpenDAP T1** | The first DAP, with interchangeable front **faceplates** |
 | **OpenDAP OS** | The operating system and software experience of the T1, built on Debian |
 | **OpenDAP HATs** | Accessories mounted on the back that extend what the device can do, on an open standard |
 | **OpenDAP Developer Toolkit** | The `opendap` CLI, SDK and the tools to build, verify and manufacture on the platform |
