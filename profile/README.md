@@ -13,7 +13,7 @@ OpenDAP is in **early open development**. Requirements, architecture decisions, 
 | Part | What it is |
 |---|---|
 | **OpenDAP T1** | The first DAP, with interchangeable front **faceplates** |
-| **OpenDAP OS** | The operating system and software experience of the T1, built on Debian |
+| **Blackbird OS** | The operating system and software experience of the T1, built on Debian |
 | **OpenDAP HATs** | Accessories mounted on the back that extend what the device can do, on an open standard |
 | **OpenDAP Desktop** | The desktop app for everything you can do with an OpenDAP, from casual use to advanced use |
 | **OpenDAP Developer Toolkit** | The `opendap` CLI, SDK and the tools to build, verify and manufacture on the platform |
@@ -32,9 +32,9 @@ The T1 will come in two editions built from the same design: a **DIY edition** y
 | | [faceplate-classic](https://github.com/opendap-project/faceplate-classic) | Inspired by the iPod classic |
 | Standard | [hat-standard](https://github.com/opendap-project/hat-standard) | HAT Case Standard for accessory developers |
 | Process | [rfcs](https://github.com/opendap-project/rfcs) | Proposals for cross-repository and interface changes |
-| Software | [system](https://github.com/opendap-project/system) | OpenDAP OS system software and SDK (Rust) |
-| | [ui-components](https://github.com/opendap-project/ui-components) | Official UI components and design system of OpenDAP OS |
-| | [opendap-os](https://github.com/opendap-project/opendap-os) | The OpenDAP OS distribution: image build and releases |
+| Software | [system](https://github.com/opendap-project/system) | Blackbird OS system software and SDK (Rust) |
+| | [ui-components](https://github.com/opendap-project/ui-components) | Official UI components and design system of Blackbird OS |
+| | [blackbird-os](https://github.com/opendap-project/blackbird-os) | The Blackbird OS distribution: image build and releases |
 | Desktop | [desktop](https://github.com/opendap-project/desktop) | OpenDAP Desktop, the desktop app (Rust) |
 | Developer Toolkit | [toolkit-cli](https://github.com/opendap-project/toolkit-cli) | The `opendap` command-line tool |
 | | [toolkit-host](https://github.com/opendap-project/toolkit-host) | Developer host setup |
@@ -53,7 +53,7 @@ The T1 will come in two editions built from the same design: a **DIY edition** y
 | | [hat-vna](https://github.com/opendap-project/hat-vna) | Vector network analyzer based on NanoVNA |
 | | [hat-radio](https://github.com/opendap-project/hat-radio) | SDR based on HackRF Pro |
 
-Faceplates are interchangeable front modules; HATs are accessories mounted on the back. Each HAT is a complete project: hardware, case, firmware, software, OpenDAP OS package, its own tooling and, where useful, on-board AI.
+Faceplates are interchangeable front modules; HATs are accessories mounted on the back. Each HAT is a complete project: hardware, case, firmware, software, Blackbird OS package, its own tooling and, where useful, on-board AI.
 
 ## Licensing
 
