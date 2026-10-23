@@ -1,6 +1,6 @@
 # OpenDAP
 
-![OpenDAP T1 concept art: the T1 in graphite with its orange Action button, playing music on Blackbird OS. Concept art, not a real device.](concept.png)
+![OpenDAP T1 concept art: the T1 in graphite with its orange Action button, playing "You Only Live Once" by The Strokes on Blackbird OS. Concept art, not a real device.](concept.png)
 
 OpenDAP is an open-source, open-hardware digital audio player (DAP) that runs entirely on Linux. It is also a general-purpose Linux device: accessory **HATs**, mounted on its back, turn it into other tools.
 
