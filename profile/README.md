@@ -26,23 +26,26 @@ The T1 will come in two editions built from the same design: a **DIY edition** y
 
 | Area | Repository | What it is |
 |---|---|---|
-| Product | [t1](https://github.com/opendap-project/t1) | Product requirements, complete assembly and system simulations of the T1 |
-| Hardware | [board](https://github.com/opendap-project/board) | Main board (SBC) built around the SoC |
-| | [case](https://github.com/opendap-project/case) | Rigid mechanics: core (with basic back cover), faceplate mount, HAT case |
-| Faceplates | [faceplate-touch](https://github.com/opendap-project/faceplate-touch) | Default faceplate: touch display, status LED, microphone |
+| The T1 | [t1](https://github.com/opendap-project/t1) | The OpenDAP T1: product requirements, integration, assembly |
+| | [board](https://github.com/opendap-project/board) | The T1's main board, built around the SoC |
+| | [case](https://github.com/opendap-project/case) | The T1's rigid mechanics: core (with basic back cover), faceplate mount |
+| | [faceplate-touch](https://github.com/opendap-project/faceplate-touch) | The T1's default faceplate: touch display, status LED, microphone |
 | | [faceplate-cassette](https://github.com/opendap-project/faceplate-cassette) | Inspired by cassette Walkmans |
 | | [faceplate-classic](https://github.com/opendap-project/faceplate-classic) | Inspired by the iPod classic |
 | Standard | [hat-standard](https://github.com/opendap-project/hat-standard) | HAT Case Standard for accessory developers |
 | Process | [rfcs](https://github.com/opendap-project/rfcs) | Proposals for cross-repository and interface changes |
 | Software | [system](https://github.com/opendap-project/system) | Blackbird OS system software and SDK (Rust) |
-| | [ui-components](https://github.com/opendap-project/ui-components) | Official UI components and design system of Blackbird OS |
-| | [blackbird-os](https://github.com/opendap-project/blackbird-os) | The Blackbird OS distribution: image build and releases |
-| Desktop | [desktop](https://github.com/opendap-project/desktop) | OpenDAP Desktop, the desktop app (Rust) |
-| Developer Toolkit | [toolkit-cli](https://github.com/opendap-project/toolkit-cli) | The `opendap` command-line tool |
-| | [toolkit-host](https://github.com/opendap-project/toolkit-host) | Developer host setup |
+| | [blackbird-ui](https://github.com/opendap-project/blackbird-ui) | Blackbird UI: the Engineered Matter design system, tokens, icons and the UI of Blackbird OS |
+| | [blackbird-os](https://github.com/opendap-project/blackbird-os) | The Blackbird OS distribution: the image definition and releases |
+| | [virtual-devices](https://github.com/opendap-project/virtual-devices) | Virtual OpenDAP devices for development on a computer: hardware layers, models, the emulator tool |
+| Desktop and CLI | [desktop](https://github.com/opendap-project/desktop) | OpenDAP Desktop, the desktop app (Rust) |
+| | [cli](https://github.com/opendap-project/cli) | The `opendap` command-line tool, for advanced users and package developers |
+| Developer Toolkit | [toolkit-host](https://github.com/opendap-project/toolkit-host) | Maintainers' host setup |
+| | [toolkit-image](https://github.com/opendap-project/toolkit-image) | Image, sysroot, cross-build and deploy tools |
 | | [toolkit-hardware](https://github.com/opendap-project/toolkit-hardware) | Fab packages, CAD exports, part data and the component export contract |
 | | [toolkit-verify](https://github.com/opendap-project/toolkit-verify) | Verification from simulations and captured samples |
 | | [toolkit-hooks](https://github.com/opendap-project/toolkit-hooks) | Shared pre-commit hooks |
+| | [claude-plugins](https://github.com/opendap-project/claude-plugins) | Agent skills and hooks for working in the workspace |
 | Libraries | [kicad-lib](https://github.com/opendap-project/kicad-lib) | KiCad symbols, footprints, 3D models and fab design rules |
 | | [freecad-lib](https://github.com/opendap-project/freecad-lib) | FreeCAD mechanical parts |
 | | [blender-lib](https://github.com/opendap-project/blender-lib) | Blender materials, models and scenes |
